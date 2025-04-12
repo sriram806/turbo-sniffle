@@ -1,0 +1,8 @@
+backend-api/
+├── main.py                   # FastAPI app entry point
+├── models.py                 # Pydantic models for request/response
+├── utils/
+│   ├── face_encoder.py       # Face encoding logic using face_recognition
+│   └── db_manager.py         # Handles SQLite operations
+├── train_dbs/                # Stores train-wise SQLite DBs
+└── requirements.txt          # Dependencies
